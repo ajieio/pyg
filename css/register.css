@@ -1,0 +1,138 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    box-sizing: border-box;
+    height: 82px;
+    border-bottom: 2px solid #c81623;
+    padding-top: 16px;
+}
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.reg-hd {
+    padding: 0 10px;
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+.reg-hd .fl {
+    float: left;
+    line-height: 40px;
+    font-size: 18px;
+}
+.reg-hd .fr {
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
+}
+.reg-hd .fr a {
+    color: #c81623;
+}
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form li {
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.reg-form li label {
+    float: left;
+    width: 88px;
+    margin-right: 10px;
+    text-align: right;
+}
+.reg-form li input {
+    float: left;
+    box-sizing: border-box;
+    height: 35px;
+    width: 240px;
+    outline: none;
+}
+.error,
+.success {
+    float: left;
+    margin: 7px 5px 0 9px;
+    width: 20px;
+    height: 20px;
+}
+.error {
+    background: url(../upload/error.png) no-repeat;
+}
+.success {
+    background:url(../upload/success.png) no-repeat;
+}
+.reg-form li span {
+    color: #c81623;
+}
+.reg-form li:nth-child(2) span {
+    color: green;
+}
+.reg-form li:nth-child(3) {
+    margin-bottom: 0;
+}
+.reg-form li:nth-child(4) {
+    padding-left: 170px;
+    margin-bottom: 0;
+}
+.reg-form li em {
+    padding: 0 12px;
+    margin-right: 1px;
+    color: #fff;
+}
+.reg-form li em:nth-child(1) {
+    margin-left: 10px;
+    background-color: #de1111;
+}
+.reg-form li em:nth-child(2) {
+    background-color: #40b83f;
+}
+.reg-form li em:nth-child(3) {
+    background-color: #f79100;
+}
+.reg-form ul .last {
+    padding-left: 110px;
+}
+.reg-form ul .last input {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.reg-form ul .last a {
+    padding: 0 12px;
+    color: #1ba1e6;
+}
+.reg-form ul .submin {
+    padding-left: 176px;
+    margin-top: 50px;
+}
+.reg-form ul .submin a {
+    display: block;
+    height: 35px;
+    width: 255px;
+    background-color: #c81623;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.footer {
+    height: 120px;
+}
+.footer .about {
+    height: 15px;
+    margin-top: 22px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.footer a {
+    padding: 0 16px;
+}
+.footer p {
+    margin-bottom: 2px;
+    text-align: center;
+}
